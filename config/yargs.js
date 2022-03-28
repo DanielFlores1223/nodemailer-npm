@@ -4,18 +4,18 @@ const argv = require('yargs')
                alias: 'email',
                type: 'string',
                demandOption: true,
-               describe: 'Ingresar la base para generar la tabla de multiplicar'
+               describe: 'Ingresa tu email'
           },
           'p': {
                alias: 'password',
                type: 'string',
-               describe: 'Lista la tabla en consola',
+               describe: 'Ingresa la contraseña de ese email que agregaste',
                demandOption: true,
           },
           's': {
                alias: 'service',
                type: 'string',
-               describe: 'Lista la tabla en consola',
+               describe: 'Agrega el servicio del email, EX: gmail, hotmail',
                demandOption: true,
           },
      })
